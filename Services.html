@@ -3,32 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="CSS/Style.css">
     <title>Services</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"> 
+    <!---had to put favicon in root folder as it was not appearing when i ran the code--->
 </head>
 
 <body>
-    <header>
            <!--Navigtion-->
         <div class="topNav"> 
             <nav>
                 <ul class="navLinks">
-                    <li><a href="Index.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                    <li><a href="Services.html">Services</a></li>
-                    <li><a href="Products.html">Products</a></li>
-                    <li><a href="Repairs.html">PC Solutions</a></li>
+                    <a href="Index.html">Home</a>
+                    <a href="About.html">About</a>
+                    <a href="Contact.html">Contact</a>
+                    <a href="Services.html">Services</a>
+                    <a href="Products.html">Products</a>
+                    <a href="Repairs.html">PC Solutions</a>
                 </ul>
             </nav>
         </div>
-    </header>
 
     <main>
-        <h1>What do we do?</h1>
-        <p> We offer a wide range of computer repair services to get your device back in top shape. 
+
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>What do we do?</h1>
+            </div>
+        </div>
+        <br>
+
+        
+        <h2> We offer a wide range of computer repair services to get your device back in top shape. 
             Whether you're dealing with hardware issues, software problems, or virus infections, 
-            our expert technicians are here to help.</p>
+            our expert technicians are here to help.</h2><br>
 
 
         <h2>Our Services Include:</h2>
@@ -40,7 +48,7 @@
             <li>Virus Removal: Detecting and removing malware, viruses, and spyware to protect your data and privacy.</li>
             <li>Data Recovery: Recovering lost or deleted files from damaged or corrupted storage devices.</li>
             <li>Other Services: Custom solutions tailored to your specific computer repair needs.</li>
-
+        </ul><br>
 
         <h2>Why Choose Us?</h2>
         <ul class="services">
@@ -48,40 +56,45 @@
             <li>Quality Service: We are committed to providing high-quality service and ensuring customer satisfaction.</li>
             <li>Affordable Pricing: We offer competitive pricing for all our repair services without compromising on quality.</li>
             <li>Fast Turnaround: We understand the importance of your devices and strive to complete repairs as quickly as possible.</li>
-        </ul>
+        </ul><br>
 
         <h2>Looking for parts?</h2>
             <!--link to products-->
         <p> In addition to our repair services, we also offer a wide selection of high-quality computer parts and accessories. 
             Whether you're building a new PC or upgrading your existing one, we have the components you need.</p>
-            <button onclick="window.location.href='Products.html'">See Products</button>
+        
+        <div class="BContainer">  
+        <button class="button" onclick="window.location.href='Products.html'">See Products</button>
+        </div><br>
 
         <h2>Need a Specific Service?</h2>
             <!--link to repairs-->
         <p> Whether you're facing hardware issues, software problems, or need routine maintenance, 
             our team of experienced technicians is here to help. We are dedicated to providing fast 
-            and efficient service to get your devices back up and running smoothly.
-        </p>
-        <button onclick="window.location.href='Repairs.html'">Specific Services</button>
+            and efficient service to get your devices back up and running smoothly.</p>
+        
+        <div class="BContainer">
+        <button class="button" onclick="window.location.href='Repairs.html'">Specific Services</button>
+        </div><br>
 
         <h2>Talk To Us?</h2>
             <!--link to contact-->
         <p>Contact us today to schedule a service or get a free quote!</p>
-            <button onclick="window.location.href='Contact.html'">Contact Us</button>
 
+        <div class="BContainer">
+        <button class="button" onclick="window.location.href='Contact.html'">Contact Us</button>
+        </div><br><br>
     </main>
-    <footer>
-        <div class ="socialMedia">
+       <div class ="footer">
             <ul class="social">
-                <li>Twitter/X</li>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Linkedin</li>
-                <li>Email</li>
+                <a href="https://www.twitter.com/" target="_blank">Twitter/X</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+                <a href="https://www.Google.com/" target="_blank">Email</a>
             </ul>
+            <p>&copy; 2025 CloudTech</p>
         </div>
-        <p>&copy; 2025 CloudTech</p>
-    </footer>
     
 </body>
 </html>

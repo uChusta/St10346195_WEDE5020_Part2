@@ -3,67 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="CSS/Style.css">
     <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"> 
+    <!---had to put favicon in root folder as it was not appearing when i ran the code--->
 </head>
 
 <body>
-    <header>
         <!--Navigtion-->
         <div class="topNav"> 
             <nav>
                 <ul class="navLinks">
-                    <li><a href="Index.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                    <li><a href="Services.html">Services</a></li>
-                    <li><a href="Products.html">Products</a></li>
-                    <li><a href="Repairs.html">PC Solutions</a></li>
+                    <a href="Index.html">Home</a>
+                    <a href="About.html">About</a>
+                    <a href="Contact.html">Contact</a>
+                    <a href="Services.html">Services</a>
+                    <a href="Products.html">Products</a>
+                    <a href="Repairs.html">PC Solutions</a>
                 </ul>
             </nav>
         </div>
-    </header>
     
     <main>
-            <!---Contact us form--->
-        <h1>Contact Us</h1>
-        <p> If you need to get in touch with us for any inquiries, support, or feedback, please fill out the form below. 
-            We look forward to hearing from you!</p>
 
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Contact Us</h1>
+                <p> If you need to get in touch with us for any inquiries, support, or feedback, please fill out the form below. 
+                    We look forward to hearing from you!</p>
+            </div>
+        </div>
+        <br>
+
+        <!---Contact us form--->
+    <div class="form">
             <form action="Contact Us" method="post">
             <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+            <input type="text" id="name" name="name" placeholder="Your name" required ><br><br>
 
             <label for="Surname">Surname:</label><br>
-            <input type="text" id="surname" name="surname" required><br><br>
+            <input type="text" id="surname" name="surname" placeholder="Your last name" required><br><br>
             
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+            <input type="text" id="email" name="email" placeholder="Your email" required<br><br>
             
             <label for="phone">Phone Number:</label><br>
-            <input type="tel" id="phone" name="phone"><br><br>
+            <input type="tel" id="phone" name="phone" placeholder="0123456789"><br><br>
             <label for="subject">Subject:</label><br>
             <input type="text" id="subject" name="subject" required><br><br>
 
             <label for="details">Message:</label><br>
-            <textarea id="details" name="details" rows="4" cols="50"></textarea><br><br>
+            <textarea id="details" name="details" placeholder="write something" rows="4" cols="50"></textarea><br><br>
             
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
         </form>
+    </div>
+
     </main>
-    <footer>
-        <div class ="socialMedia">
+
+       <div class ="footer">
             <ul class="social">
-                <li>Twitter/X</li>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Linkedin</li>
-                <li>Email</li>
+                <a href="https://www.twitter.com/" target="_blank">Twitter/X</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+                <a href="https://www.Google.com/" target="_blank">Email</a>
             </ul>
+            <p>&copy; 2025 CloudTech</p>
+    
         </div>
-        <p>&copy; 2025 CloudTech</p>
-    </footer>
+        
     
 </body>
+  
 </html>
