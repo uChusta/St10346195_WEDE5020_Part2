@@ -16,5 +16,30 @@ Vaičiūnaitė, D. (2022, August 3). Top 10 Website KPIs to Measure Your Client'
 
 Screenshots: 
 
-chrome:
+Google Chrome:
+
 <img width="1599" height="852" alt="Google Chrome" src="https://github.com/user-attachments/assets/415297eb-3074-4778-bde0-ccf3b05930dd" />
+
+Microsoft Edege:
+
+<img width="1598" height="849" alt="Microsoft Edge" src="https://github.com/user-attachments/assets/b3a9af9f-c69d-42fd-af3c-fb7740a2307a" />
+
+Opera GX:
+
+<img width="1599" height="852" alt="Opera GX" src="https://github.com/user-attachments/assets/1a9c1033-e38d-4091-a3c8-222dc552278f" />
+
+iPad Pro:
+
+<img width="1599" height="848" alt="IpadPro" src="https://github.com/user-attachments/assets/40844342-536e-49fa-b1eb-80248577643e" />
+
+iPhone 14 Pro Max:
+
+<img width="1599" height="852" alt="Iphone14 Pro Max" src="https://github.com/user-attachments/assets/9d500c06-4e85-4d5e-8f16-3315c12551c5" />
+
+Samsung Galaxy A51/71:
+
+<img width="1599" height="848" alt="Samsung Galaxy A51" src="https://github.com/user-attachments/assets/9df5e311-01bd-4a0d-9507-2e86549fccdc" />
+
+
+
+
