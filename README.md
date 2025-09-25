@@ -15,3 +15,6 @@ Fingerprint Marketing. (n.d.). 10 Website Key Performance Indicators (KPIs) to T
 Vaičiūnaitė, D. (2022, August 3). Top 10 Website KPIs to Measure Your Client's Website Performance. Whatagraph. https://whatagraph.com/blog/articles/website-kpis [Accessed 16 August 2025] 
 
 Screenshots: 
+
+chrome:
+<img width="1599" height="852" alt="Google Chrome" src="https://github.com/user-attachments/assets/415297eb-3074-4778-bde0-ccf3b05930dd" />
