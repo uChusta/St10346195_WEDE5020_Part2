@@ -2,37 +2,34 @@
 
 -ST10346195_WEDE5020_PART2 repository is ceated and intialised.
 
--Changelog is created.
+-Changelog is created. (commit: create Changelog.md)
 
--READ ME is Created and updated.
+-READ ME is Created and updated. (commit: Update README)
 
 19 Sept 2025:
 
--HTML project files from Part 1 are added to repository.
+-HTML project files from Part 1 are added to repository.(commit: files from part 1)
 
--CSS folder added and Style sheet is created. 
-
-
-20 Sept 2025:
-
--Navigation bar is updated.
--Footer is created and styled.
--Favicon is added.
--Hero image is added and styled.
--Styling for doy and font type is added.
+-CSS folder added and external CSS Style sheet is created and linked to to all pages. (commit: style sheet added)
 
 
-21 Sept 2025:
+23 Sept 2025: (Commit: new nav)
 
--forms are updated and styled.
--buttons styling is added
--Responsiveness is added and tested.
+-Navigation bar layout is updatedslong with website layout.
+-Footer is created with working links and styled to look like navigatio bar.
+-Styling for body and font-type for website is added.
 -Product cards styling s added.
+-buttons styled with colour and responsiveness.
+-Responsiveness is added and tested.
 
+-forms are updated and styled
+-added font size for paragraphs and headings is updated
 
-23 Sept 2025:
+25 Sept 2025:
+-Favicon is added. (commit: favicon and hero image)
+-Hero image is added and styled. (commit: favicon and hero image)
 
--READ ME is update with screenshots.
--Proposal is updated with feedback form part 1.
+-READ ME is update with screenshots. (commit: Update README.md)
+-Proposal is updated with feedback from part 1.
 
 
